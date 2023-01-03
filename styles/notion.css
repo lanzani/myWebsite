@@ -6,10 +6,12 @@
  * whereas our goal with this site is to adjust Notion's styling in a few key
  * places to add some flare.
  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
+
 }
 
 .notion-page {
@@ -382,3 +384,24 @@
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
+
+/* CUSTOM */
+
+/*.notion-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.notion-text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.notion-header .title {
+  font-family: 'Playfair Display', serif;
+}*/
+
+
+/* Hide all pages from homepage */
+.notion-block-48c3bfe5a56e40c1bc0e1015b11e4618 {
+  display: none;
+}
+

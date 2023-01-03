@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '4a1e26586ac34d2ea42c39c306bcb26f',
+  rootNotionPageId: 'a082121dc3c944708456da4a6b1268f3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '',
-  domain: '',
+  name: 'Federico Lanzani',
+  domain: 'https://federicolanzani.com/',
   author: 'Federico Lanzani',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Software Engineer • I design and develop Machine Learning & Computer Vision solutions since Python 2.7',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'FederLanzani',
+  github: 'lanzani',
+  linkedin: 'lanzani',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -54,12 +54,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
-      pageId: '1ec6602a4547469ea296c7e4e3725952'
+      title: 'Projects',
+      pageId: 'a8a7d3c6dafb473b87518e4452ea7490'
     },
     {
-      title: 'Contact',
-      pageId: 'e9ebf84421a4476a88c64c987722352c'
+      title: '✌️ About',
+      pageId: '9035a6d22bba4895a801ca355d07d0f8'
     }
   ]
 })
