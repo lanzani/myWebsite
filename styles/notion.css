@@ -9,6 +9,9 @@
  * places to add some flare.
  */
 
+.dark-mode {
+  --bg-color: #111;
+}
 
 .notion {
   --notion-max-width: 720px;
@@ -395,17 +398,17 @@
 
 .notion-header .title {
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .notion-title {
   font-family: 'Playfair Display', cursive;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .notion-h {
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .notion-quote {
@@ -420,9 +423,14 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.notion-quote {
+  border-left: 4px solid #b467d1;
+}
 
 
-
+.notion-page-icon-hero.notion-page-icon-image{
+  box-shadow: none !important;
+}
 
 
 /* Hide all pages from homepage */
