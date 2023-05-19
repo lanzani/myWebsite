@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Federico Lanzani',
 
   // open graph metadata (optional)
-  description: 'Software Engineer • I design and develop Machine Learning & Computer Vision solutions since Python 2.7',
+  description: 'Founder & CTO • Building computer vision products since Python 2.7',
 
   // social usernames (optional)
   twitter: 'FederLanzani',
@@ -22,7 +22,7 @@ export default siteConfig({
   linkedin: 'lanzani',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: '@federico_lanzani', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
